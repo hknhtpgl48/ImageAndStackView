@@ -23,7 +23,7 @@
 		FF10719029C6E2B00033E188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF10719229C6E2B10033E188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF10719529C6E2B10033E188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FF10719729C6E2B10033E188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF10719729C6E2B10033E188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "ImageAndStackView/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,39 @@
 		FF10718829C6E2B00033E188 /* ImageAndStackView */ = {
 			isa = PBXGroup;
 			children = (
+				FF10719E29C6E2DA0033E188 /* Controllers */,
+				FF10719F29C6E2EC0033E188 /* Views */,
+				FF10719D29C6E2BD0033E188 /* Supporting Files */,
+			);
+			path = ImageAndStackView;
+			sourceTree = "<group>";
+		};
+		FF10719D29C6E2BD0033E188 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				FF10718929C6E2B00033E188 /* AppDelegate.swift */,
 				FF10718B29C6E2B00033E188 /* SceneDelegate.swift */,
-				FF10718D29C6E2B00033E188 /* ViewController.swift */,
-				FF10718F29C6E2B00033E188 /* Main.storyboard */,
 				FF10719229C6E2B10033E188 /* Assets.xcassets */,
 				FF10719429C6E2B10033E188 /* LaunchScreen.storyboard */,
 				FF10719729C6E2B10033E188 /* Info.plist */,
 			);
-			path = ImageAndStackView;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF10719E29C6E2DA0033E188 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF10718D29C6E2B00033E188 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF10719F29C6E2EC0033E188 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF10718F29C6E2B00033E188 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ImageAndStackView/Info.plist;
+				INFOPLIST_FILE = "ImageAndStackView/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ImageAndStackView/Info.plist;
+				INFOPLIST_FILE = "ImageAndStackView/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
